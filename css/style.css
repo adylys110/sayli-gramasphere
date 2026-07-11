@@ -200,11 +200,11 @@ body.no-hero .nav-link{ color:var(--ink); }
 .bottom-nav ul{ display:flex; justify-content:space-between; }
 .bottom-nav li{ flex:1; }
 .bottom-nav a{
-  display:flex; flex-direction:column; align-items:center; gap:4px;
-  font-size:.64rem; font-weight:700; letter-spacing:.02em; color:var(--stone);
-  padding:6px 2px; border-radius:14px; transition:color .3s var(--ease), background .3s var(--ease);
+  display:flex; flex-direction:column; align-items:center; gap:3px;
+  font-size:.6rem; font-weight:700; letter-spacing:.01em; color:var(--stone);
+  padding:6px 1px; border-radius:14px; transition:color .3s var(--ease), background .3s var(--ease);
 }
-.bottom-nav svg{ width:22px; height:22px; stroke:var(--stone); transition:stroke .3s var(--ease); }
+.bottom-nav svg{ width:20px; height:20px; stroke:var(--stone); transition:stroke .3s var(--ease); }
 .bottom-nav a.active{ color:var(--olive-dark); }
 .bottom-nav a.active svg{ stroke:var(--olive-dark); }
 .bottom-nav a.active{ background:var(--sage-light); }
